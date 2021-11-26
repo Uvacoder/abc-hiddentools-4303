@@ -4,7 +4,7 @@ import '../style/banner.css';
 const Banner = ({title}) => {
         return (
             <div className="banner">
-	            Introducing Hidden Tools v2! {title}
+	            Introducing abc Hidden Tools v2! {title}
             </div>
         );
 }
