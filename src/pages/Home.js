@@ -76,13 +76,13 @@ const Home = () => {
            </div>
           </div>
         </div>
-      </header>
+      </header>,
 
 
       { (visibleTools.length === 0) && (
           <center><span className="no-results">😥 No results found for <strong>{searchQuery}</strong>.</span></center>
 
-      )}
+      )},
 
       <div className="tools">
         {
