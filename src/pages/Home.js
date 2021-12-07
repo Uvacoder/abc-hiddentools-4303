@@ -2,7 +2,7 @@ import '../style/App.css';
 import tools from '../data/tools.json';
 import logo from '../assets/hiddentools-logo.png'
 import { useState, useEffect } from 'react';
-import { Banner, Footer } from '../components'
+import Footer from '../components'
 import { countBy } from 'lodash';
 
 const Home = () => {
@@ -55,10 +55,7 @@ const Home = () => {
   }
 
   return (
-    <div>
-      <Banner title="We're currently in early release :) 🚀"/>
-      <br/><br/><br/><br/>
-      
+    
       <header>
         <div className="header-content">
           <img alt="Hidden Tools Logo" className="logo" src={logo}/>
