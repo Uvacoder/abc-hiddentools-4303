@@ -1,4 +1,4 @@
 import Footer from './Footer';
-import Banner from './Banner';
+//import Banner from './Banner';
 
-export { Footer, Banner };
+export Footer;
