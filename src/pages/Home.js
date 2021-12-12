@@ -60,7 +60,7 @@ const Home = () => {
         <div className="header-content">
           <img alt="Hidden Tools Logo" className="logo" src={logo}/>
           <h1>Hidden Tools</h1>
-          <p className="header-subtitle">Discover a wide collection of tools made by the community - for you. ✨👇🏻</p>
+          <p className="header-subtitle">A wide collection of tools for me. ✨👇🏻</p>
           <div className="search-wrapper">
             <input
               className="search" type="text" autoComplete="off" spellCheck="false" placeholder="Search names, descriptions, or tags..."
